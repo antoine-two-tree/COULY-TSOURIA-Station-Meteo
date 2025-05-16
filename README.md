@@ -25,7 +25,7 @@ Accéléromètre trois axes
 Module ESP32 pour la communication sans fil avec la station sol
 Alimentation par batterie Li-Po
 
-Fonctionnement
+3. Fonctionnement
 
 Initialisation : La station sol vérifie tous les périphériques et configure les seuils de sécurité.
 Déploiement : Le treuil déroule progressivement le câble, permettant au ballon de s'élever.
@@ -45,7 +45,8 @@ Activation manuelle du bouton de rappel
 
 
 
-Matériel requis
+4.Matériel requis
+
 Microcontrôleurs
 
 2x STM32 (série F4 ou L4 recommandée)
@@ -71,7 +72,7 @@ Accéléromètre MPU-6050
 Batterie Li-Po (3.7V, capacité adaptée à la durée de vol souhaitée)
 Nacelle légère pour contenir l'électronique
 
-Configuration des périphériques STM32
+5. Configuration des périphériques STM32
 GPIO
 
 LED indicateur d'état (sortie)
